@@ -46,9 +46,18 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Text(
-                'Welcome to Flutter!',
+                'Welcome to ',
                 style: TextStyle(
                   fontSize: 25,
+                  fontWeight: FontWeight.normal,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              Text(
+                'Flutter!',
+                style: TextStyle(
+                  fontSize: 25,
+                  color: Colors.blue,
                   fontWeight: FontWeight.normal,
                 ),
                 textAlign: TextAlign.center,
